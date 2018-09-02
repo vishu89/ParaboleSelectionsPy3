@@ -1,0 +1,7 @@
+Step 1. Words are tokenized and annotated with parts-of-speech tags.
+Step 2. By using POS- tagging function(from NLTK) we categorize the words of sentence as Nouns and Verbs.
+Step 3. Classifies nouns are added to the graph as vertices.
+Step 4. An edge is added between nouns that co- occur.
+Step 5. Using Word Overlap algorithm we extract the phrases and use them as relations between nouns.
+Step 6. Using prediction model, we develop the relations between nouns.
+Step 7. Fitted the model as required. 
